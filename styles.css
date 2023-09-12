@@ -7,9 +7,7 @@ header {
 h1{
     text-align: center;
 }
-body{
-    background-color: #548e92;
-}
+
 .center{
     display: block;
     margin-left: auto;
@@ -26,6 +24,9 @@ body{
     color: aqua;
     text-align: center;
     padding: 50px;
+}
+* {
+    background-color: rgba(249, 196, 157, 0.648);
 }
 .items{
     background-color: azure;
@@ -67,4 +68,14 @@ div{
     column-count: 4;
     background-color: rgb(42, 169, 106);
     text-size-adjust: 100px;
+}
+h4,p{
+    text-align: center;
+    font-size: 20px;
+}
+ul,img{
+    width: 60%;
+    height: auto;
+    padding: auto;
+    text-align: center;
 }
